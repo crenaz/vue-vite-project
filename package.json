@@ -37,12 +37,13 @@
     "start-server-and-test": "^2.0.10",
     "typescript": "~5.7.3",
     "vite": "^6.2.1",
-    "vitest": "^3.2.7",
+    "vitest": "^4.1.11",
     "vue-tsc": "^2.2.8"
   },
   "pnpm": {
     "overrides": {
       "@babel/core": "^7.29.6",
+      "@vitest/mocker": "^4.1.11",
       "body-parser": "^2.3.0",
       "browserslist": "^4.28.7",
       "cross-spawn": "^7.0.6",
@@ -68,6 +69,7 @@
       "tmp": "^0.2.6",
       "undici": "^7.29.0",
       "uuid": "^11.1.0",
+      "vitest": "^4.1.11",
       "ws": "^8.21.0",
       "yaml": "^2.8.3"
     }
